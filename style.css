@@ -1,0 +1,83 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 10;
+}
+
+h1 {
+  background: pink;
+}
+
+h2 {
+  background: blue;
+}
+
+h3 {
+  background: red;
+}
+
+h4 {
+  background: purple;
+}
+
+.flex {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+}
+
+.flex-2 {
+  background-color: orange;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#header {
+  font-size: 3rem;
+}
+
+#attention {
+  font-size: 2rem;
+}
+
+#image {
+  width: 50%;
+  height: 50%;
+}
+
+#teaser {
+  font-size: 1.5rem;
+  justify-self: flex-end;
+}
+
+#header-box {
+  align-self: center;
+  width: 500px;
+}
+
+#content-box {
+  flex: 1;
+}
+
+#teaser-box {
+  align-self: flex-end;
+  justify-self: flex-end;
+  justify-content: flex-end;
+  margin-top: auto;
+}
